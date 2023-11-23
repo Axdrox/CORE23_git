@@ -16,6 +16,6 @@ fig, ax = plt.subplots()
 ax.hexbin(x, y, gridsize=20)
 
 ax.set(xlim=(-2, 2), ylim=(-3, 3))
-ax.set_title("Gráfica hexa")
+ax.set_title("Gráfica hexágono")
 plt.savefig("plot_hexbin")
 plt.show()
