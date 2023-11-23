@@ -17,5 +17,5 @@ ax.hexbin(x, y, gridsize=20)
 
 ax.set(xlim=(-2, 2), ylim=(-3, 3))
 ax.set_title("Gráfica hexa")
-plt.savefig("plot hexbin")
+plt.savefig("plot_hexbin")
 plt.show()
